@@ -1,5 +1,6 @@
 package com.evertonogura.trabalhandocomdados.repository;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -11,5 +12,7 @@ import com.evertonogura.trabalhandocomdados.entity.Comida;
 public interface ComidaRepository extends JpaRepository<Comida, Long> {
 	
 	Optional<Comida> findById(Long id);
+	
+	List<Comida> findAll();
 	
 }
