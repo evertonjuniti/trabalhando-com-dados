@@ -7,51 +7,51 @@ public class RequestModel implements Serializable {
 
 	private static final long serialVersionUID = -7713860407818617728L;
 	
-	private String description;
+	private String descricao;
 	
-	private int amount;
+	private int quantidade;
 	
-	private String foodType;
+	private String tipoComida;
 
-	public String getDescription() {
-		return description;
+	public String getDescricao() {
+		return descricao;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
-	public int getAmount() {
-		return amount;
+	public int getQuantidade() {
+		return quantidade;
 	}
 
-	public void setAmount(int amount) {
-		this.amount = amount;
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
 	}
 
-	public String getFoodType() {
-		return foodType;
+	public String getTipoComida() {
+		return tipoComida;
 	}
 
-	public void setFoodType(String foodType) {
-		this.foodType = foodType;
+	public void setTipoComida(String tipoComida) {
+		this.tipoComida = tipoComida;
 	}
 
 	@Override
 	public String toString() {
-		return "RequestModel [description=" + description + ", amount=" + amount + ", foodType=" + foodType + "]";
+		return "RequestModel [descricao=" + descricao + ", quantidade=" + quantidade + ", tipoComida=" + tipoComida + "]";
 	}
 
-	public RequestModel(String description, int amount, String foodType) {
+	public RequestModel(String descricao, int quantidade, String tipoComida) {
 		super();
-		this.description = description;
-		this.amount = amount;
-		this.foodType = foodType;
+		this.descricao = descricao;
+		this.quantidade = quantidade;
+		this.tipoComida = tipoComida;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(amount, description, foodType);
+		return Objects.hash(quantidade, descricao, tipoComida);
 	}
 
 	@Override
@@ -63,8 +63,8 @@ public class RequestModel implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		RequestModel other = (RequestModel) obj;
-		return amount == other.amount && Objects.equals(description, other.description)
-				&& Objects.equals(foodType, other.foodType);
+		return quantidade == other.quantidade && Objects.equals(descricao, other.descricao)
+				&& Objects.equals(tipoComida, other.tipoComida);
 	}
 	
 }

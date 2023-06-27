@@ -5,6 +5,6 @@ import com.evertonogura.trabalhandocomdados.model.ResponseModel;
 
 public interface DataService {
 	
-	ResponseModel addData(RequestModel newFood);
+	ResponseModel incluir(RequestModel novaComida);
 	
 }

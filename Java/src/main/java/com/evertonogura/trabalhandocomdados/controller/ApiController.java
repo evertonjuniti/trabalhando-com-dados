@@ -14,7 +14,7 @@ import com.evertonogura.trabalhandocomdados.model.ResponseModel;
 import com.evertonogura.trabalhandocomdados.service.DataService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/")
 @CrossOrigin(origins="*")
 public class ApiController {
 
@@ -22,7 +22,7 @@ public class ApiController {
 	private DataService dataService;
 	
 	@PostMapping("/comidas")
-	public ResponseEntity<ResponseModel> add(@RequestBody RequestModel newFood) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(dataService.addData(newFood));
+	public ResponseEntity<ResponseModel> adicionar(@RequestBody RequestModel novaComida) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(dataService.incluir(novaComida));
 	}
 }
