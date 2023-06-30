@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import com.evertonogura.trabalhandocomdados.entity.Comida;
 import com.evertonogura.trabalhandocomdados.entity.TipoComida;
 import com.evertonogura.trabalhandocomdados.exception.TipoComidaNotFoundException;
+import com.evertonogura.trabalhandocomdados.jms.Producer;
+import com.evertonogura.trabalhandocomdados.model.JmsModel;
 import com.evertonogura.trabalhandocomdados.model.RequestModel;
 import com.evertonogura.trabalhandocomdados.model.ResponseModel;
 import com.evertonogura.trabalhandocomdados.repository.ComidaRepository;
@@ -24,10 +26,14 @@ public class DataServiceImpl implements DataService {
 	@Autowired
 	private TipoComidaRepository tipoComidaRepository;
 	
+	@Autowired
+	private Producer producer;
+	
 	@Override
 	public ResponseModel incluir(RequestModel novaComida) {
 		TipoComida tipoComida = validate(novaComida);
 		Comida novaEntidade = comidaRepository.save(requestToEntity(novaComida, tipoComida));
+		producer.enviar(entityToMessage(novaEntidade));
 		return new ResponseModel(novaEntidade.getId(), novaEntidade.getDescricao(), 
 				novaEntidade.getQuantidade(), novaEntidade.getTipoComida().getDescricao());
 	}
@@ -61,6 +67,10 @@ public class DataServiceImpl implements DataService {
 	
 	private Comida requestToEntity(RequestModel novaComida, TipoComida tipoComida) {
 		return new Comida(novaComida.getDescricao(), novaComida.getQuantidade(), tipoComida);
+	}
+	
+	private JmsModel entityToMessage(Comida comida) {
+		return new JmsModel(comida.getDescricao(), comida.getTipoComida().getDescricao());
 	}
 
 }
