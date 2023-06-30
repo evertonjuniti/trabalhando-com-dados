@@ -11,6 +11,6 @@ public interface DataService {
 	
 	List<ResponseModel> listar();
 	
-	ResponseModel listar(Long id);
+	ResponseModel consultarItem(Long id);
 	
 }
