@@ -17,67 +17,67 @@ Veremos um exemplo de como trabalhar com dados de formas diferentes:
 
 Você pode seguir o passo-a-passo para instalar o Eclipse (referência: 03/jul/2023):
 
-![Print 1 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print1.png)
+![Print 1 da instalação do Eclipse](/../main/Imagens/Eclipse-print1.png)
 
-![Print 2 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print2.png)
+![Print 2 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print2.png)
 
-![Print 3 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print3.png)
+![Print 3 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print3.png)
 
-![Print 4 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print4.png)
+![Print 4 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print4.png)
 
-![Print 5 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print5.png)
+![Print 5 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print5.png)
 
-![Print 6 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print6.png)
+![Print 6 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print6.png)
 
-![Print 7 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print7.png)
+![Print 7 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print7.png)
 
-![Print 8 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Eclipse-print8.png)
+![Print 8 da instalação do Eclipse](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Eclipse-print8.png)
 
 ### Instalação do SQLiteStudio
 
 Você pode seguir o passo-a-passo para instalar o SQ Lite Studio (referência: 03/jul/2023):
 
-![Print 1 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/SQLiteStudio-print1.png)
+![Print 1 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/SQLiteStudio-print1.png)
 
-![Print 2 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/SQLiteStudio-print2.png)
+![Print 2 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/SQLiteStudio-print2.png)
 
-![Print 3 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/SQLiteStudio-print3.png)
+![Print 3 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/SQLiteStudio-print3.png)
 
-![Print 4 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/SQLiteStudio-print4.png)
+![Print 4 da instalação do SQ Lite Studio](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/SQLiteStudio-print4.png)
 
 ### Instalação do Git
 
 Você pode seguir o passo-a-passo para instalar o Git (referência: 03/jul/2023):
 
-![Print 1 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print1.png)
+![Print 1 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print1.png)
 
-![Print 2 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print2.png)
+![Print 2 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print2.png)
 
-![Print 3 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print3.png)
+![Print 3 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print3.png)
 
-![Print 4 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print4.png)
+![Print 4 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print4.png)
 
-![Print 5 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print5.png)
+![Print 5 da instalação do Git](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print5.png)
 
-![Print 6 da instalação do Git](/https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print6.png)
+![Print 6 da instalação do Git](/https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print6.png)
 
-![Print 7 da instalação do Git](/https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Git-print7.png)
+![Print 7 da instalação do Git](/https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Git-print7.png)
 
 ### Instalação do Draw.io
 
 Você pode seguir o passo-a-passo para instalar o Draw.io (referência: 03/jul/2023):
 
-![Print 1 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print1.png)
+![Print 1 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print1.png)
 
-![Print 2 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print2.png)
+![Print 2 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print2.png)
 
-![Print 3 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print3.png)
+![Print 3 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print3.png)
 
-![Print 4 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print4.png)
+![Print 4 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print4.png)
 
-![Print 5 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print5.png)
+![Print 5 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print5.png)
 
-![Print 6 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/imagens/Drawio-print6.png)
+![Print 6 da instalação do Draw.io](https://github.com/evertonjuniti/trabalhando-com-dados/tree/main/Imagens/Drawio-print6.png)
 
 ## Fazendo o download do repositório
 
