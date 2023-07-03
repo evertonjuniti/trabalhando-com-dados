@@ -137,6 +137,8 @@ Para abrir o arquivo Diagrama.drawio, há duas maneiras de se fazer:
 
 Aqui você terá que utilizar o SQ Lite Studio tanto para ver o modelo do arquivo MeuDb quanto para alterá-lo.
 
+
+
 ### Passos para uso do MeuDb
 
 O arquivo MeuDb estará na pasta Database neste repositório.
