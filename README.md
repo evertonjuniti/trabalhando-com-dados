@@ -59,9 +59,9 @@ Você pode seguir o passo-a-passo para instalar o Git (referência: 03/jul/2023)
 
 ![Print 5 da instalação do Git](/../main/Imagens/Git-print5.png)
 
-![Print 6 da instalação do Git](//../main/Imagens/Git-print6.png)
+![Print 6 da instalação do Git](/../main/Imagens/Git-print6.png)
 
-![Print 7 da instalação do Git](//../main/Imagens/Git-print7.png)
+![Print 7 da instalação do Git](/../main/Imagens/Git-print7.png)
 
 ### Instalação do Draw.io
 
@@ -87,8 +87,27 @@ Para baixar o repositório há duas maneiras de se fazer:
 
 ### Opção 1 - se você baixou o Git e instalou
 
+![Print 1 do clone do repositório com o link .git](/../main/Imagens/Clone-Git-print1.png)
+
+![Print 2 do clone do repositório com o link .git](/../main/Imagens/Clone-Git-print2.png)
+
+![Print 3 do clone do repositório com o link .git](/../main/Imagens/Clone-Git-print3.png)
+
+![Print 4 do clone do repositório com o link .git](/../main/Imagens/Clone-Git-print4.png)
+
+![Print 5 do clone do repositório com o link .git](/../main/Imagens/Clone-Git-print5.png)
 
 ### Opção 2 - se você não tem o Git instalado
+
+![Print 1 do clone do repositório via download direto](/../main/Imagens/Clone-Sem-Git-print1.png)
+
+![Print 2 do clone do repositório via download direto](/../main/Imagens/Clone-Sem-Git-print2.png)
+
+### Após download, o repositório ficará assim em seu computador
+
+![Print 1 do repositório baixado em seu computador](/../main/Imagens/Clone-print1.png)
+
+![Print 2 do repositório baixado em seu computador](/../main/Imagens/Clone-print2.png)
 
 ## Olhando o desenho de solução
 
@@ -98,7 +117,21 @@ Para abrir o arquivo Diagrama.drawio, há duas maneiras de se fazer:
 
 ### Opção 1 - se você baixou e instalou o Draw.io
 
+![Print 1 do arquivo Diagrama.drawio aberto na aplicação em seu computador](/../main/Imagens/Drawio-app-print1.png)
+
+![Print 2 do arquivo Diagrama.drawio aberto na aplicação em seu computador](/../main/Imagens/Drawio-app-print2.png)
+
 ### Opção 2 - se você não tem o Draw.io instalado
+
+![Print 1 do arquivo Diagrama.drawio aberto no web browser em seu computador](/../main/Imagens/Drawio-web-print1.png)
+
+![Print 2 do arquivo Diagrama.drawio aberto no web browser em seu computador](/../main/Imagens/Drawio-web-print2.png)
+
+![Print 3 do arquivo Diagrama.drawio aberto no web browser em seu computador](/../main/Imagens/Drawio-web-print3.png)
+
+![Print 4 do arquivo Diagrama.drawio aberto no web browser em seu computador](/../main/Imagens/Drawio-web-print4.png)
+
+![Print 5 do arquivo Diagrama.drawio aberto no web browser em seu computador](/../main/Imagens/Drawio-web-print5.png)
 
 ## Olhando o modelo de dados
 
