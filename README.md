@@ -17,67 +17,67 @@ Veremos um exemplo de como trabalhar com dados de formas diferentes:
 
 Você pode seguir o passo-a-passo para instalar o Eclipse (referência: 03/jul/2023):
 
-![Print 1 da instalação do Eclipse](imagens/Eclipse-print1.png)
+![Print 1 da instalação do Eclipse](/../main/imagens/Eclipse-print1.png)
 
-![Print 2 da instalação do Eclipse](imagens/Eclipse-print2.png)
+![Print 2 da instalação do Eclipse](/../main/imagens/Eclipse-print2.png)
 
-![Print 3 da instalação do Eclipse](imagens/Eclipse-print3.png)
+![Print 3 da instalação do Eclipse](/../main/imagens/Eclipse-print3.png)
 
-![Print 4 da instalação do Eclipse](imagens/Eclipse-print4.png)
+![Print 4 da instalação do Eclipse](/../main/imagens/Eclipse-print4.png)
 
-![Print 5 da instalação do Eclipse](imagens/Eclipse-print5.png)
+![Print 5 da instalação do Eclipse](/../main/imagens/Eclipse-print5.png)
 
-![Print 6 da instalação do Eclipse](imagens/Eclipse-print6.png)
+![Print 6 da instalação do Eclipse](/../main/imagens/Eclipse-print6.png)
 
-![Print 7 da instalação do Eclipse](imagens/Eclipse-print7.png)
+![Print 7 da instalação do Eclipse](/../main/imagens/Eclipse-print7.png)
 
-![Print 8 da instalação do Eclipse](imagens/Eclipse-print8.png)
+![Print 8 da instalação do Eclipse](/../main/imagens/Eclipse-print8.png)
 
 ### Instalação do SQLiteStudio
 
 Você pode seguir o passo-a-passo para instalar o SQ Lite Studio (referência: 03/jul/2023):
 
-![Print 1 da instalação do SQ Lite Studio](imagens/SQLiteStudio-print1.png)
+![Print 1 da instalação do SQ Lite Studio](/../main/imagens/SQLiteStudio-print1.png)
 
-![Print 2 da instalação do SQ Lite Studio](imagens/SQLiteStudio-print2.png)
+![Print 2 da instalação do SQ Lite Studio](/../main/imagens/SQLiteStudio-print2.png)
 
-![Print 3 da instalação do SQ Lite Studio](imagens/SQLiteStudio-print3.png)
+![Print 3 da instalação do SQ Lite Studio](/../main/imagens/SQLiteStudio-print3.png)
 
-![Print 4 da instalação do SQ Lite Studio](imagens/SQLiteStudio-print4.png)
+![Print 4 da instalação do SQ Lite Studio](/../main/imagens/SQLiteStudio-print4.png)
 
 ### Instalação do Git
 
 Você pode seguir o passo-a-passo para instalar o Git (referência: 03/jul/2023):
 
-![Print 1 da instalação do Git](imagens/Git-print1.png)
+![Print 1 da instalação do Git](/../main/imagens/Git-print1.png)
 
-![Print 2 da instalação do Git](imagens/Git-print2.png)
+![Print 2 da instalação do Git](/../main/imagens/Git-print2.png)
 
-![Print 3 da instalação do Git](imagens/Git-print3.png)
+![Print 3 da instalação do Git](/../main/imagens/Git-print3.png)
 
-![Print 4 da instalação do Git](imagens/Git-print4.png)
+![Print 4 da instalação do Git](/../main/imagens/Git-print4.png)
 
-![Print 5 da instalação do Git](imagens/Git-print5.png)
+![Print 5 da instalação do Git](/../main/imagens/Git-print5.png)
 
-![Print 6 da instalação do Git](/imagens/Git-print6.png)
+![Print 6 da instalação do Git](//../main/imagens/Git-print6.png)
 
-![Print 7 da instalação do Git](/imagens/Git-print7.png)
+![Print 7 da instalação do Git](//../main/imagens/Git-print7.png)
 
 ### Instalação do Draw.io
 
 Você pode seguir o passo-a-passo para instalar o Draw.io (referência: 03/jul/2023):
 
-![Print 1 da instalação do Draw.io](imagens/Drawio-print1.png)
+![Print 1 da instalação do Draw.io](/../main/imagens/Drawio-print1.png)
 
-![Print 2 da instalação do Draw.io](imagens/Drawio-print2.png)
+![Print 2 da instalação do Draw.io](/../main/imagens/Drawio-print2.png)
 
-![Print 3 da instalação do Draw.io](imagens/Drawio-print3.png)
+![Print 3 da instalação do Draw.io](/../main/imagens/Drawio-print3.png)
 
-![Print 4 da instalação do Draw.io](imagens/Drawio-print4.png)
+![Print 4 da instalação do Draw.io](/../main/imagens/Drawio-print4.png)
 
-![Print 5 da instalação do Draw.io](imagens/Drawio-print5.png)
+![Print 5 da instalação do Draw.io](/../main/imagens/Drawio-print5.png)
 
-![Print 6 da instalação do Draw.io](imagens/Drawio-print6.png)
+![Print 6 da instalação do Draw.io](/../main/imagens/Drawio-print6.png)
 
 ## Fazendo o download do repositório
 
