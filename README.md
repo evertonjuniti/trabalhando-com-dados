@@ -135,17 +135,33 @@ Para abrir o arquivo Diagrama.drawio, há duas maneiras de se fazer:
 
 ## Olhando o modelo de dados
 
-Aqui você terá que utilizar o SQ Lite Studio tanto para ver o modelo do arquivo MeuDb quanto para alterá-lo.
-
-
+Aqui você terá que utilizar o SQ Lite Studio tanto para ver o modelo do arquivo MeuDb.db quanto para alterá-lo.
 
 ### Passos para uso do MeuDb
 
-O arquivo MeuDb estará na pasta Database neste repositório.
+O arquivo MeuDb.db estará na pasta "Banco de Dados" neste repositório.
 
-Se possível copie este arquivo para a pasta C:\Temp (se for Windows) pois no código em Java eu deixei parametrizado para procurar o arquivo em C:\Temp\MeuDb. Você pode mudar isso, mas terá que lembrar de alterar no Java onde estará o arquivo.
+Se possível copie este arquivo para a pasta C:\Temp (se for Windows) pois no código em Java eu deixei parametrizado para procurar o arquivo em C:\Temp\MeuDb.db. Você pode mudar isso, mas terá que lembrar de alterar no Java onde estará o arquivo.
 
-Partindo da premissa que você seguiu a instrução anterior, abra o SQ Lite que você instalou e siga o passo-a-passo dos print's à seguir para poder abrir o arquivo MeuDb:
+Partindo da premissa que você seguiu a instrução anterior, abra o SQ Lite que você instalou e siga o passo-a-passo dos print's à seguir para poder abrir o arquivo MeuDb.db:
+
+![Print 1 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print1.png)
+
+![Print 2 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print2.png)
+
+![Print 3 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print3.png)
+
+![Print 4 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print4.png)
+
+![Print 5 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print5.png)
+
+![Print 6 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print6.png)
+
+![Print 7 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print7.png)
+
+![Print 8 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print8.png)
+
+![Print 9 das instruções de como abrir o arquivo com o modelo de dados com o SQLiteStudio](/../main/Imagens/SQLiteStudio-MeuDb-print9.png)
 
 ## Olhando o código-fonte
 
@@ -153,3 +169,24 @@ Aqui você terá que utilizar o Eclipse para ver o código-fonte.
 
 Observação: tem outra ferramenta para desenvolvimento em Java? Sem problemas! Mas aqui eu vou mostrar o passo-a-passo apenas para o Eclipse, pois foi o que eu utilizei:
 
+![Print 1 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print1.png)
+
+![Print 2 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print2.png)
+
+![Print 3 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print3.png)
+
+![Print 4 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print4.png)
+
+![Print 5 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print5.png)
+
+![Print 6 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print6.png)
+
+![Print 7 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print7.png)
+
+![Print 8 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print8.png)
+
+![Print 9 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print9.png)
+
+![Print 10 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print10.png)
+
+![Print 11 das instruções de como abrir o projeto em Java Maven no Eclipse](/../main/Imagens/Eclipse-Java-print11.png)
