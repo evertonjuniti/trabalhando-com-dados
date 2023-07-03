@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.evertonogura.trabalhandocomdados.exception.QuantidadeInvalidException;
 import com.evertonogura.trabalhandocomdados.model.RequestModel;
 import com.evertonogura.trabalhandocomdados.model.ResponseModel;
 import com.evertonogura.trabalhandocomdados.service.DataService;
@@ -25,6 +26,7 @@ public class ApiController {
 	
 	@PostMapping("/comidas")
 	public ResponseEntity<ResponseModel> adicionar(@RequestBody RequestModel novaComida) {
+		validateRequest(novaComida);
 		return ResponseEntity.status(HttpStatus.CREATED).body(dataService.incluir(novaComida));
 	}
 	
@@ -37,4 +39,10 @@ public class ApiController {
 	public ResponseEntity<ResponseModel> consultar(@PathVariable Long id) {
 		return ResponseEntity.status(HttpStatus.OK).body(dataService.consultarItem(id));
 	}
+	
+	private void validateRequest(RequestModel comida) {
+		if (comida.getQuantidade() <= 0)
+			throw new QuantidadeInvalidException(comida.getQuantidade());
+	}
+	
 }
