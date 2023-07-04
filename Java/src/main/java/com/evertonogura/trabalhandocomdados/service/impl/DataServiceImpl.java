@@ -11,42 +11,54 @@ import com.evertonogura.trabalhandocomdados.entity.TipoComida;
 import com.evertonogura.trabalhandocomdados.exception.TipoComidaNotFoundException;
 import com.evertonogura.trabalhandocomdados.jms.Producer;
 import com.evertonogura.trabalhandocomdados.model.JmsModel;
-import com.evertonogura.trabalhandocomdados.model.RequestModel;
-import com.evertonogura.trabalhandocomdados.model.ResponseModel;
+import com.evertonogura.trabalhandocomdados.model.RequestModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelTipoComida;
 import com.evertonogura.trabalhandocomdados.repository.ComidaRepository;
 import com.evertonogura.trabalhandocomdados.repository.TipoComidaRepository;
 import com.evertonogura.trabalhandocomdados.service.DataService;
 
 @Service
 public class DataServiceImpl implements DataService {
+
+	@Autowired
+	private TipoComidaRepository tipoComidaRepository;
 	
 	@Autowired
 	private ComidaRepository comidaRepository;
 	
 	@Autowired
-	private TipoComidaRepository tipoComidaRepository;
-	
-	@Autowired
 	private Producer producer;
 	
 	@Override
-	public ResponseModel incluir(RequestModel novaComida) {
+	public List<ResponseModelTipoComida> listarTiposComida() {
+		List<ResponseModelTipoComida> response = new ArrayList<ResponseModelTipoComida>();
+		
+		List<TipoComida> tiposComida = tipoComidaRepository.findAll();
+		
+		for(TipoComida tipoComida : tiposComida)
+			response.add(new ResponseModelTipoComida(tipoComida.getId(), tipoComida.getDescricao()));
+		
+		return response;
+	}
+	
+	@Override
+	public ResponseModelComida incluirComida(RequestModelComida novaComida) {
 		TipoComida tipoComida = validate(novaComida);
 		Comida novaEntidade = comidaRepository.save(requestToEntity(novaComida, tipoComida));
 		producer.enviar(entityToMessage(novaEntidade));
-		return new ResponseModel(novaEntidade.getId(), novaEntidade.getDescricao(), 
+		return new ResponseModelComida(novaEntidade.getId(), novaEntidade.getDescricao(), 
 				novaEntidade.getQuantidade(), novaEntidade.getTipoComida().getDescricao());
 	}
 
 	@Override
-	public List<ResponseModel> listar() {
-		List<ResponseModel> response = new ArrayList<ResponseModel>();
+	public List<ResponseModelComida> listarComidas() {
+		List<ResponseModelComida> response = new ArrayList<ResponseModelComida>();
 		
 		List<Comida> comidas = comidaRepository.findAll();
 		
-		for(Comida comida : comidas)
-		{
-			response.add(new ResponseModel(comida.getId(), comida.getDescricao(), 
+		for(Comida comida : comidas) {
+			response.add(new ResponseModelComida(comida.getId(), comida.getDescricao(), 
 					comida.getQuantidade(), comida.getTipoComida().getDescricao()));
 		}
 		
@@ -54,18 +66,18 @@ public class DataServiceImpl implements DataService {
 	}
 	
 	@Override
-	public ResponseModel consultarItem(Long id) {
+	public ResponseModelComida consultarComida(Long id) {
 		Comida comida = comidaRepository.findById(id).get();
-		return new ResponseModel(comida.getId(), comida.getDescricao(), 
+		return new ResponseModelComida(comida.getId(), comida.getDescricao(), 
 				comida.getQuantidade(), comida.getTipoComida().getDescricao());
 	}
 	
-	private TipoComida validate(RequestModel novaComida) {
+	private TipoComida validate(RequestModelComida novaComida) {
 		return tipoComidaRepository.findByDescricao(novaComida.getTipoComida())
 			.orElseThrow(() -> new TipoComidaNotFoundException(novaComida.getTipoComida()));
 	}
 	
-	private Comida requestToEntity(RequestModel novaComida, TipoComida tipoComida) {
+	private Comida requestToEntity(RequestModelComida novaComida, TipoComida tipoComida) {
 		return new Comida(novaComida.getDescricao(), novaComida.getQuantidade(), tipoComida);
 	}
 	

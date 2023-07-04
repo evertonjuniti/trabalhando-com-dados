@@ -2,15 +2,18 @@ package com.evertonogura.trabalhandocomdados.service;
 
 import java.util.List;
 
-import com.evertonogura.trabalhandocomdados.model.RequestModel;
-import com.evertonogura.trabalhandocomdados.model.ResponseModel;
+import com.evertonogura.trabalhandocomdados.model.RequestModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelTipoComida;
 
 public interface DataService {
 	
-	ResponseModel incluir(RequestModel novaComida);
+	List<ResponseModelTipoComida> listarTiposComida();
 	
-	List<ResponseModel> listar();
+	ResponseModelComida incluirComida(RequestModelComida novaComida);
 	
-	ResponseModel consultarItem(Long id);
+	List<ResponseModelComida> listarComidas();
+	
+	ResponseModelComida consultarComida(Long id);
 	
 }

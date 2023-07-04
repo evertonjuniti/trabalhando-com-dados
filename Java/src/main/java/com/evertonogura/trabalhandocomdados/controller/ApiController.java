@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.evertonogura.trabalhandocomdados.exception.QuantidadeInvalidException;
-import com.evertonogura.trabalhandocomdados.model.RequestModel;
-import com.evertonogura.trabalhandocomdados.model.ResponseModel;
+import com.evertonogura.trabalhandocomdados.model.RequestModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelComida;
+import com.evertonogura.trabalhandocomdados.model.ResponseModelTipoComida;
 import com.evertonogura.trabalhandocomdados.service.DataService;
 
 @RestController
@@ -24,23 +25,28 @@ public class ApiController {
 	@Autowired
 	private DataService dataService;
 	
+	@GetMapping("/tiposComida")
+	public ResponseEntity<List<ResponseModelTipoComida>> consultarTiposComida() {
+		return ResponseEntity.status(HttpStatus.OK).body(dataService.listarTiposComida());
+	}
+	
 	@PostMapping("/comidas")
-	public ResponseEntity<ResponseModel> adicionar(@RequestBody RequestModel novaComida) {
+	public ResponseEntity<ResponseModelComida> adicionarComida(@RequestBody RequestModelComida novaComida) {
 		validateRequest(novaComida);
-		return ResponseEntity.status(HttpStatus.CREATED).body(dataService.incluir(novaComida));
+		return ResponseEntity.status(HttpStatus.CREATED).body(dataService.incluirComida(novaComida));
 	}
 	
 	@GetMapping("/comidas")
-	public ResponseEntity<List<ResponseModel>> consultar() {
-		return ResponseEntity.status(HttpStatus.OK).body(dataService.listar());
+	public ResponseEntity<List<ResponseModelComida>> consultarComidas() {
+		return ResponseEntity.status(HttpStatus.OK).body(dataService.listarComidas());
 	}
 	
 	@GetMapping("/comidas/{id}")
-	public ResponseEntity<ResponseModel> consultar(@PathVariable Long id) {
-		return ResponseEntity.status(HttpStatus.OK).body(dataService.consultarItem(id));
+	public ResponseEntity<ResponseModelComida> consultarComida(@PathVariable Long id) {
+		return ResponseEntity.status(HttpStatus.OK).body(dataService.consultarComida(id));
 	}
 	
-	private void validateRequest(RequestModel comida) {
+	private void validateRequest(RequestModelComida comida) {
 		if (comida.getQuantidade() <= 0)
 			throw new QuantidadeInvalidException(comida.getQuantidade());
 	}

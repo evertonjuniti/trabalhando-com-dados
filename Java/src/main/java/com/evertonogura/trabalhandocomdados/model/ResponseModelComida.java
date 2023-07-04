@@ -3,7 +3,7 @@ package com.evertonogura.trabalhandocomdados.model;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class ResponseModel implements Serializable {
+public class ResponseModelComida implements Serializable {
 
 	private static final long serialVersionUID = 7436777072360246982L;
 	
@@ -53,7 +53,7 @@ public class ResponseModel implements Serializable {
 				+ quantidade + ", tipoComida=" + tipoComida + "]";
 	}
 
-	public ResponseModel(long identificador, String descricao, int quantidade, String tipoComida) {
+	public ResponseModelComida(long identificador, String descricao, int quantidade, String tipoComida) {
 		super();
 		this.identificador = identificador;
 		this.descricao = descricao;
@@ -74,7 +74,7 @@ public class ResponseModel implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		ResponseModel other = (ResponseModel) obj;
+		ResponseModelComida other = (ResponseModelComida) obj;
 		return Objects.equals(descricao, other.descricao) && identificador == other.identificador
 				&& quantidade == other.quantidade && Objects.equals(tipoComida, other.tipoComida);
 	}
